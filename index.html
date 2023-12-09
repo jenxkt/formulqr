@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="9.css">    
+</head>
+<body>
+    <form action="submit" method="post" enctype="multipart/form-data">
+        <label for="firstName">Име:</label>
+        <input type="text" id="firstName" name="firstName">
+
+        <label for="lastName">Фамилия:</label>
+        <input type="text" id="lastName" name="lastName"><br><br>
+
+        <label for="gender">Пол:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мъж</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Жена</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Друг</label>
+        <br><br>
+
+        <label for="colors">Любими цветове:</label>
+        <select id="colors" name="colors" required>
+            <option value="red">Червен</option>
+            <option value="green">Зелен</option>
+            <option value="blue">Син</option>
+            <option value="orange">Оранжев</option>
+            <option value="purple">Лилав</option>
+            <option value="pink">Розов</option>
+            <option value="brown">Кафяв</option>
+        </select><br><br>
+
+        <label for="file">Прикачване на файл:</label>
+        <input type="file" id="file" name="file" accept="audio/*"><br><br>
+
+        <label for="birthdate">Избор на дата:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+    <button type="submit">Изпращане</button>
+    </form> 
+    
+</body>
+</html>

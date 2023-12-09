@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5c5b5b;
+    margin: 0;
+    font-style: italic;
+    padding: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 33.5vw;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color:rgb(14, 44, 78) ;
+    background-color: #7eacaa;
+}
+
+
+input {
+    background-color: #7eacaa;
+    color: rgb(14, 44, 78);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button{
+    background-color: rgb(48, 98, 103);
+    display: block;
+    margin-bottom: 8px;
+    font-weight: italic;
+    height: 2.5vw;
+    width: 10vw;
+    color: rgb(5, 18, 34);
+    font-size: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+
+}
+
